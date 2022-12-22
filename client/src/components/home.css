@@ -1,0 +1,41 @@
+.fondo {
+    background-image: url('../images/fondoladrillo.jpg');
+    
+}
+
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    transition: margin-left 0.3s 0.1s;
+    color: white;
+}
+
+.create_button{
+    font-weight: bold;
+    color: rgb(7, 202, 7);
+    font-size: 18px;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.create_button:hover{
+    opacity: 1;
+}
+
+.reload_dogs{
+    background-color: transparent;
+    color: orangered;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin-left: 5rem;
+    opacity: 0.9;
+    font-size: 16px;
+}
+
+.reload_dogs:hover {
+    opacity: 1;
+}

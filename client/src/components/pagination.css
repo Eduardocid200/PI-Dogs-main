@@ -1,0 +1,27 @@
+.pagination_container{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 2rem;
+    
+}
+
+.pagination {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: orangered;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 2rem;   
+}
+
+.pagination:hover{
+    color: rgb(7, 202, 7); 
+}

@@ -1,0 +1,36 @@
+.fondo_2{
+    background-image: url('../images/perro_paleta.webp');
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+    width: 110%;
+    
+}
+
+.container{
+    padding-top: 60px;
+    margin-left: 9rem;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    
+}
+
+.input_temperament{
+    list-style: none;
+    
+}
+
+
+.x {
+    color: red;
+    font-weight: bold;
+}
+
+.x:hover {
+    color: black;
+    background-color: red;
+    font-weight: bold;
+}
