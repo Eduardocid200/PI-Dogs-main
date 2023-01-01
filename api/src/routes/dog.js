@@ -1,13 +1,13 @@
 const { Router } = require ('express');
 const axios = require ('axios');
 const { Dog, Temperament } = require('../db');
-const { YOUR_API_KEY } = process.env;
+const {live_gWKHYMr5HlfyGzevnRXJs3DOIi8R6Z8EIT1W1ImCFENGdI9ANWVRLAJXw00twJSs} = process.env;
 
 
 const router = Router();
 
 const getApiInfo = async() => {
-    const apiUrl = await axios.get(`https://api.thedogapi.com/v1/breeds?key=${YOUR_API_KEY}`);
+    const apiUrl = await axios.get('https://api.thedogapi.com/v1/breeds?api_key=live_gWKHYMr5HlfyGzevnRXJs3DOIi8R6Z8EIT1W1ImCFENGdI9ANWVRLAJXw00twJSs');
     const apiInfo = await apiUrl.data.map(e=>{ //.data xq me va a traer la info en .data
         return{
             id:e.id,
@@ -41,8 +41,7 @@ const getDbInfo = async () => {
         return infoTotal; //me devuelve un arreglo
   };
   
-
-router.get('/', async (req, res) => {
+  router.get('/', async (req, res) => {
     const name = req.query.name //un query con la propiedad name que me pasan por url
     let dogsTotal = await getAllDogs();
     if(name){                                      // el.name es el nombre de la raza del perro, o sea del perro

@@ -1,22 +1,22 @@
 .landing_page {
-    background-image: url('../images/oscuro1.webp');
+    background-image: url('../images/303944.jpg');
     width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: contain;
-    padding-top: 80px;
-    margin: -40px;
-    background-color: black;
+    padding-top: 60px;
+    margin: -55px;
+    background-color: rgb(164, 162, 162);
    
 }
 
 .title_landing{
     width: 60rem;
-    margin-left: 35rem;
-    margin-top: 9rem;
-    padding-left: 3rem;
+    margin-left: 10rem;
+    margin-top: 12rem;
+    padding-left: 1rem;
     background: linear-gradient(50deg,orange, rgb(145, 49, 5));
     background-clip: text;
     -webkit-background-clip: text;
@@ -30,30 +30,35 @@
 .subtitle_landing {
     
     margin-top: 2.5rem;
-    margin-left: 55rem;
-    padding-left: 3rem;
-    width: 20rem;
-    justify-content: center;
-    text-align: center;
-    word-spacing: 0.1cm;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(128, 21, 21);
+    margin-left: 28rem;
+    padding-left: -300px;
+     width: 40rem;
+  word-spacing: 0.1cm;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 2, 179);
 
 
 }
 
 .button_landing {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    font-size: 60px;
-    margin-left: 51rem;
-    margin-top: 1.8rem;
+    background: -o-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+    background: -moz-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+    background: -webkit-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+    background: linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
     
+    height: 10%;
+            width: 25%;
+            margin-top: 65px;
+            padding: 0px;
+    color: #aaa;
+font-size: xx-large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+border-radius: 15px;
+
 }
 
 .button_landing:hover {
     outline-offset: 80px;
-    text-shadow: 5px 5px 5px white;
-    border: none;
+    text-shadow: 5px 5px 5px rgb(125, 7, 7);
+    border: 25px;
 }

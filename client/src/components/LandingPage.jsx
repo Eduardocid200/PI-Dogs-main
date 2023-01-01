@@ -12,7 +12,7 @@ export default function LandingPage(){
                 <h4 className='subtitle_landing'>Search breeds of dogs or create one</h4>
 
                 <Link to = '/home'>
-                    <button className='button_landing'>🐾</button>
+                    <button className='button_landing'>Welcome</button>
                 </Link>
             
 

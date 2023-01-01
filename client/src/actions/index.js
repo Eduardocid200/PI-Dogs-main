@@ -5,14 +5,16 @@ import axios from 'axios';
 
 export function getDogs(){
     return async function(dispatch) {
-        var json = await axios.get('http://localhost:3001/dog/');
+        var json = await axios.get('http://localhost:3001/dog', {
+
+        });
         return dispatch({
             type: 'GET_DOGS',
             payload: json.data
         })
     }
 
-}
+ }
 
 export function getDogName(name){ //name o payload, da igual
     return async function(dispatch) {
@@ -41,7 +43,7 @@ export function getTemperament(){
 
 export function postDog(payload){
     return async function(dispatch) {
-        const data = await axios.post('http://localhost:3001/dog', payload);
+        const data = await axios.post('http://localhost:3001/dog/', payload);
         console.log(data)
         return data;
     }

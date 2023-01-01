@@ -1,15 +1,16 @@
 .loader {
     margin-bottom: -5rem;
-    color:orangered;
-    letter-spacing: 0.1cm;
-    background-color: black;
+    color:rgb(99, 4, 139);
+    letter-spacing: 0.5cm;
+    background-color: rgb(255, 255, 255);
     
    
 }
 
 .fondo_1 {
-    background-color: black;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
     height: 100vh;
     width: 100vw;
-    
+    border-image-slice:  50px;
 }
