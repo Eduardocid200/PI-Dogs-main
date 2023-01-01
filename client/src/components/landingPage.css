@@ -6,37 +6,62 @@
     background-position: center;
     background-attachment: fixed;
     background-size: contain;
-    padding-top: 60px;
+    padding-top: 50px;
     margin: -55px;
     background-color: rgb(164, 162, 162);
    
 }
+.content {
+     display: flex;
+    width: 500px;
+    height: 90px;
+    color: red;
+    font-size: 4rem;
+    line-height: 80px;
 
-.title_landing{
-    width: 60rem;
-    margin-left: 10rem;
+    position: absolute;
+    padding-left: 13rem;
+    margin-left: 16rem;
     margin-top: 12rem;
-    padding-left: 1rem;
-    background: linear-gradient(50deg,orange, rgb(145, 49, 5));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.7rem;
-    
-    
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+   
 }
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+    }
+    ul,p{
+        margin: 0;
+    
+    }
+    
+    @keyframes cambiar {
+        0%{ marging-top: 0;}
+        20%{ marging-top: 0;}
+        25%{ marging-top: -40;}
+        50%{ marging-top: -40;}
+        55%{ marging-top: -80;}
+        80%{ marging-top: -80;}
+        85%{ marging-top: -40;}
+        95%{ marging-top: -40;}
+        100%{ marging-top: 0;}
+    }
 
 .subtitle_landing {
     
-    margin-top: 2.5rem;
-    margin-left: 28rem;
-    padding-left: -300px;
+    top: 50rem;
+    left: 28rem;
+    left: 25rem;
+    padding-left: 320px;
+    
      width: 40rem;
   word-spacing: 0.1cm;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 2, 179);
-
+    color: rgb(255, 2, 2);
+    margin-top: 400px;
 
 }
 
@@ -54,11 +79,13 @@
 font-size: xx-large;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 border-radius: 15px;
-
+margin-top: 150px;
 }
 
 .button_landing:hover {
+   
     outline-offset: 80px;
-    text-shadow: 5px 5px 5px rgb(125, 7, 7);
+    text-shadow: 5px 5px 5px rgb(255, 0, 0);
     border: 25px;
 }
+
