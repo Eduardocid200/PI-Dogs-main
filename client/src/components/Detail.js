@@ -5,27 +5,17 @@ import { useEffect } from 'react';
 import { getDetail } from '../actions';
 import './detail.css';
 
-
 export default function Detail(){
     const dispatch = useDispatch();
     const {id} = useParams();
     const navigate = useNavigate();
  
-    
-
-
     useEffect(() => {
         dispatch(getDetail(id)); 
         return()=> {dispatch(getDetail())}
     },[id, dispatch]);
-
-    
-
-    const detail = useSelector((state) => state.detail)
-
-       
-
-    return (
+     const detail = useSelector((state) => state.detail)
+     return (
         <div className='fondo_3'>
              <div className="button_container_detail">
   
