@@ -1,13 +1,14 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
 import {useDispatch, useSelector} from 'react-redux'; //hooks
-import { getDogs, getTemperament, filterDogsByTemperament, filterCreated, orderByName, orderByWeight } from '../actions';
+import {getDogs, getTemperament, filterDogsByTemperament, filterCreated, orderByName, orderByWeight } from '../actions';
 import {Link} from 'react-router-dom';
 import Card from './Card';
 import Pagination from './Pagination';
 import Loader from './Loader';
 import SearchBar from './SearchBar';
 import './home.css'
+
 
 export default function Home(){  //todo lo de abajo sería como hacer un mapStateToProps
     const dispatch = useDispatch() 
@@ -24,7 +25,7 @@ export default function Home(){  //todo lo de abajo sería como hacer un mapStat
     // pag 1 -----------0--------------8
     // pag 2 -----------9--------------17
 
-    const pagination = (pageNumber) => { //esto va a ser en renderizado
+    const pagination = (pageNumber, currentPage) => { //esto va a ser en renderizado
       setCurrentPage(pageNumber)    // setear la pag en ese numero de pagina
     }
 

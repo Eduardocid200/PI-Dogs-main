@@ -1,12 +1,45 @@
 .fondo_3{
-    background-image: url('https://images.ecestaticos.com/MUsrmUgYGUwR5M6ZyyHCDmeFRUk=/0x0:2121x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd9e%2F66d%2F793%2Fd9e66d793adbc994841e60850a17e61c.jpg')!important;
+    background-image: url(https://thumbs.dreamstime.com/z/un-modelo-de-las-pistas-caninas-de-diversos-tama%C3%B1os-rastros-de-un-perro-gris-claro-en-un-fondo-blanco-ejemplo-del-vector-en-una-93104261.jpg)!important;
      color: white;
     width: auto;
-    height: 880px;
+    height: 900px;
+    margin-top: -15px;
+    color: rgb(150, 150, 151);
 }
 
 .image_detail {
-   padding-top: 50px;
-    width: 400px;
-    height:300px;
+    border-radius: 10px;
+    border: rgb(0, 0, 0) 3px solid ;
+    width: 330px;
+    height:270px;
+    background-color: transparent;
+    opacity: 0.9;
+   margin-top: 0px;
+    padding-top: 0px;
+    color: rgb(150, 150, 151);
+}
+.dognamedetail {
+display: flex;
+margin-left: 570px;
+padding-right: 80px;
+padding-top: 15px;
+font-size: 50px;
+color: rgb(86, 86, 86);
+
+padding-left: -600px;
+margin-left: 420px;
+}
+.button_detail{
+    display: flex;
+    color:rgb(105, 103, 103);
+    background-color: transparent;
+    border-radius: 10px;
+    width: 150px;
+    height: 48px;
+    margin-left: 560px;
+    margin-top: 15px;
+    padding-left: 30px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: x-large;
 }

@@ -24,7 +24,7 @@ export default function Detail(){
             {
                 detail.length > 0 ?
                 <div>
-                    <h1>{detail[0].name}</h1>
+                    <h1 className="dognamedetail">{detail[0].name}</h1>
                     <img className='image_detail' src={detail[0].image} alt='not found'/>
                     <p>Height : {!detail[0].createdInDb? detail[0].height : detail[0].heightMin + ' - ' + detail[0].heightMax}</p>
                     <p>Weight : {!detail[0].createdInDb? detail[0].weight : detail[0].weightMin + ' - ' + detail[0].weightMax}</p>

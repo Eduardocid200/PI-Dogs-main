@@ -1,37 +1,37 @@
 .landing_page {
     background-image: url('../images/303944.jpg');
-    width: 100vw;
-    height: 100vh;
+    width: 1335px;
+    height: 900px;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: contain;
-    padding-top: 50px;
+    background-size: cover;
+    padding-top: 60px;
     margin: -55px;
-    background-color: rgb(164, 162, 162);
+    background-color: rgb(53, 53, 53);
    
 }
 .content {
-     display: flex;
-    width: 500px;
+    display: flex;
+    width: 480px;
     height: 90px;
-    color: red;
+    color: rgb(60, 60, 60);
     font-size: 4rem;
     line-height: 80px;
 
     position: absolute;
-    padding-left: 13rem;
-    margin-left: 16rem;
+    padding-left: 25rem;
+    margin-left: 5rem;
     margin-top: 12rem;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
    
 }
 
-ul {
+.tittle1 {
     list-style: none;
-    padding-left: 10px;
-    animation: cambiar 7s infinite;
+    padding-left: 0px;
+    animation: cambiar 4s infinite;
     }
     ul,p{
         margin: 0;
@@ -39,29 +39,60 @@ ul {
     }
     
     @keyframes cambiar {
-        0%{ marging-top: 0;}
-        20%{ marging-top: 0;}
-        25%{ marging-top: -40;}
-        50%{ marging-top: -40;}
-        55%{ marging-top: -80;}
-        80%{ marging-top: -80;}
-        85%{ marging-top: -40;}
-        95%{ marging-top: -40;}
-        100%{ marging-top: 0;}
-    }
+        /* 0%{ marging-top: 0px;}
+        20%{ marging-top: 0px;}
+        25%{ marging-top: -40px;}
+        50%{ marging-top: -40px;}
+        55%{ marging-top: -80px;}
+        80%{ marging-top: -80px;}
+        85%{ marging-top: -40px;}
+        95%{ marging-top: -40px;}
+        100%{ marging-top: 0px;} */
+       
+            0%{
+              transform: translateY(0px);
+            }
+            20%{
+                transform: translateY(0px);
+              }
+            25%{
+                transform: translateY(-40px);
+              }
+              50%{
+                transform: translateY(-65px);
+              }
+              55%{
+                transform: translateY(-80px);
+              } 
+              80%{
+                transform: translateY(-80px);
+              }
+              85%{
+                transform: translateY(-65px);
+              }
+              95%{
+                transform: translateY(-40px);
+              }
+             
+            100%{
+              transform: translateY(0px);
+            }
+          }
+    
 
 .subtitle_landing {
     
     top: 50rem;
     left: 28rem;
-    left: 25rem;
-    padding-left: 320px;
+    padding-left: 360px;
     
      width: 40rem;
-  word-spacing: 0.1cm;
+     word-spacing: 0.1cm;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 2, 2);
+    color: rgb(60, 60, 60);
     margin-top: 400px;
+    text-decoration: none;
+    font-size: xx-large;
 
 }
 

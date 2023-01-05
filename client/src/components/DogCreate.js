@@ -148,10 +148,12 @@ function  handleDelete(el){
        
         <div className='fondo_2'>
            <h1 className='tittle'>Use your imagination</h1>
-          
+           {/* <input type="button" value="Back" onClick="history.back(-1);"/>
+           <input type="button" value="Volver Atras" onclick="history.back(-1)" />
+            <input type="button" value="Forward" onClick="forward(+1);"></input>  */}
            <Link as={Link} to= '/home'><button className='button'> Home </button></Link>
             <div className='container'>
-            
+      
            
             <form onSubmit={(e) => handleSubmit(e)}>
                 <div>

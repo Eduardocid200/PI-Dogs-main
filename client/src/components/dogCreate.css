@@ -1,21 +1,22 @@
 .fondo_2{
-    background-image: url('https://p4.wallpaperbetter.com/wallpaper/402/740/38/funny-picture-of-dogs-underwater-chasing-wallpaper-preview.jpg');
+    background-image: url(https://thumbs.dreamstime.com/z/un-modelo-de-las-pistas-caninas-de-diversos-tama%C3%B1os-rastros-de-un-perro-gris-claro-en-un-fondo-blanco-ejemplo-del-vector-en-una-93104261.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 110%;
-    color:aliceblue;
-    padding-top: 250px;
+    height: 680px;
+    width: 1180px;
+    color:rgb(0, 0, 0);
+    padding-top: 220px;
     padding-right: 80px;
-    
+    text-decoration: none;
 }
+
 .tittle{
+    text-decoration: none;
     background-color: transparent;
     text-decoration: solid;
     border-radius: 10px;
-    border-color: rgb(255, 0, 0);
-    color: white;
+   
+    color: rgb(4, 255, 221);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: -300px;
@@ -23,11 +24,14 @@
     margin-top: -200px;
     width: 800px;
     height: 50px;
+    font-size: 50px;
 
 }
 .button{
+    outline: none;
+    text-decoration: none;
     display: flex;
-    color:red;
+    color:rgb(129, 129, 129);
     background-color: transparent;
     border-radius: 10px;
     width: 150px;
@@ -36,14 +40,18 @@
     margin-top: -67px;
     font-weight: 1000;
     font-size: x-large;
+    padding-left: 30px;
+    
+    
 
 }
 .button:hover{
     opacity: 0.9;
 }
 .create{
+    text-decoration: none;
     display: flex;
-    color:red;
+    color:rgb(129, 129, 129);
     background-color: transparent;
     border-radius: 10px;
     width: 150px;
@@ -53,6 +61,8 @@
     text-align: center;
     font-weight: 1000;
     font-size: x-large;
+    padding-left: 30px;
+    text-decoration: none;
 
 }
 .temperament_finder{
@@ -71,7 +81,7 @@
 }
 
 .error {
-    color: red;
+    color:rgb(0, 98, 255);
     font-size: 14px;
     
 }
@@ -79,13 +89,18 @@
 .input_temperament{
     list-style: none;
     padding-left: 10px;
+    font-size: x-large;
+    color:rgb(0, 98, 255);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
 
 .x {
-    color: red;
+    color:rgb(0, 98, 255);
     font-weight: bold;
+    font-size: x-large;
 }
 
 .x:hover {

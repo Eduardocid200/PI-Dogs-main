@@ -25,7 +25,7 @@ export function getDogName(name){ //name o payload, da igual
                 payload: json.data //json.data es lo q devuelve esa ruta
             })
       } catch (error) {
-        alert('Dog not found 😕');
+        alert('Dog not found');
 
         }
     }

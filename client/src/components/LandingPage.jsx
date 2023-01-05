@@ -8,12 +8,14 @@ export default function LandingPage(){
         <div className='landing_page'>
                 
                 <div className="content">
-
-                <p>Hello</p>
+               
+                <p> Hello</p>
+                <nav className='tittle1'>
                 <ul>
-                    <li>Humans</li>
-                    <li>Dogs</li>
+                    <p> Humans</p>
+                    <p> Dogs</p>
                 </ul>
+                </nav>
                 </div>
            <h4 className='subtitle_landing'>Search breeds of dogs or create one</h4>
 

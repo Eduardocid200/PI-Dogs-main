@@ -44,7 +44,7 @@ function rootReducer(state= initialState, action){
                     
             })
                 return {
-                    ...state, //me traiego todo lo de estado
+                    ...state, //me traigo todo lo de estado
                     dogs: temperamentFiltered
                     
         }

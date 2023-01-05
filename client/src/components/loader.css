@@ -1,16 +1,28 @@
 .loader {
     margin-bottom: -5rem;
-    color:rgb(99, 4, 139);
-    letter-spacing: 0.5cm;
-    background-color: rgb(255, 255, 255);
-    
+    color:rgb(100, 33, 187);
+    font-weight: 900;
+    letter-spacing: 0.2cm;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: wavy;
+
    
 }
 
+
 .fondo_1 {
-    margin-top: 50px;
-    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    background:url(https://st2.depositphotos.com/1106005/8592/i/600/depositphotos_85929920-stock-photo-black-and-white-doggy-tile.jpg);
     height: 100vh;
     width: 100vw;
     border-image-slice:  50px;
+    background-size: cover;
 }
+.imgdog{
+    margin-top: 100px;
+    height:600px ;
+    width: 600px;
+    border-radius: 30px;
+}
+

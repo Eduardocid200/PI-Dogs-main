@@ -1,42 +1,82 @@
 .fondo {
-    background-image: url('https://images.ecestaticos.com/MUsrmUgYGUwR5M6ZyyHCDmeFRUk=/0x0:2121x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd9e%2F66d%2F793%2Fd9e66d793adbc994841e60850a17e61c.jpg')!important;
- 
+     background-image: url(https://thumbs.dreamstime.com/z/un-modelo-de-las-pistas-caninas-de-diversos-tama%C3%B1os-rastros-de-un-perro-gris-claro-en-un-fondo-blanco-ejemplo-del-vector-en-una-93104261.jpg)!important; 
+
 }
 
 .card_grid {
     display:grid;
     grid-template-columns: repeat(auto-fill, 270px);
-    gap: 20px;
+    gap: 5px;
 
-    margin-top: -20px;
+    margin-top: -40px;
     justify-content: center;
     transition: margin-left 0.3s 0.1s;
-    color: white;
+    color: rgb(150, 150, 151);
 }
 
 .create_button{
-    font-weight: bold;
-    color: red;
-    font-size: 28px;
+    display: flex;
+    color:rgb(129, 129, 129);
+       background-color: transparent;
+    width: 150px;
+    height: 50px;
+    margin-left: 455px;
+    margin-top: 0px;
+    font-weight: 1000;
+    font-size: x-large;
+    padding-left: 30px;
     text-decoration: none;
-    opacity: 0.6;
 }
 
 .create_button:hover{
     opacity: 1;
+    border-color: aqua;
+  
 }
 
 .reload_dogs{
+    display: flex;
+    color:rgb(129, 129, 129);
     background-color: transparent;
-    color: rgb(51, 178, 34);
-    font-weight: bold;
-    outline: none;
-    border:rgb(51, 178, 34); ;
-    margin-left: 5rem;
-    opacity: 0.6;
-    font-size: 28px;
+    width: 220px;
+    height: 50px;
+    margin-left: 630px;
+    margin-top: -52px;
+    font-weight: 1000;
+    font-size: x-large;
+    padding-left: 30px;
 }
 
 .reload_dogs:hover {
     opacity: 1;
 }
+.numberpage:active{
+  color:white;
+}
+  .pagination > li {
+    list-style: none;
+    border: 0.3px solid;
+  }
+  .pagination > li > a,
+  .pagination > li > span {
+    float: left;
+    padding: 8px 20px;
+    line-height: 1.5;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+  }
+
+  .pagination > li.active > a {
+    color: #fff;
+    background-color: #b3ad58;
+    border-color: #c09b45;
+  }
+   .pagination > li > a:hover {
+    background-color: #218838;
+    color: white;
+    cursor: pointer;
+  } 
+  .pagination > li:first-child > a,
+  .pagination > li:first-child > span {
+    margin-left: 0;
+  }  

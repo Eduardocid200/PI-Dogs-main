@@ -16,7 +16,7 @@ const getAllTemperaments = async (req, res) => {
     //elimino espacios en blanco a c/lado
     dataTemperament = dataTemperament.map( el => el.trim());
 
-    //agrego los tempaeramentos a la base de datos
+    //agrego los temperamentos a la base de datos
     dataTemperament.forEach (el => {
         if(el !== '') {
             Temperament.findOrCreate({
