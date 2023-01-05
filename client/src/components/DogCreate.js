@@ -147,9 +147,12 @@ function  handleDelete(el){
     return (
        
         <div className='fondo_2'>
+           <h1 className='tittle'>Use your imagination</h1>
+          
+           <Link as={Link} to= '/home'><button className='button'> Home </button></Link>
             <div className='container'>
-            <Link as={Link} to= '/home'><button>HOME</button></Link>
-            <h1>BE CREATIVE 🐾</h1>
+            
+           
             <form onSubmit={(e) => handleSubmit(e)}>
                 <div>
                 <input className='input'
@@ -248,7 +251,7 @@ function  handleDelete(el){
                         <p className='error'>{errors.lmax}</p>
                     )}
                 </div>
-                <label> Temperaments </label>
+                <div className='temperament_finder'><label> Temperaments </label>
                 <select onChange={(e) => handleSelectTemperament(e)}>
                 {errors.temperament && (
                         <p className='error'>{errors.temperament}</p>
@@ -257,8 +260,9 @@ function  handleDelete(el){
                         <option key={t.id} value={t.name}>{t.name}</option>
                     ))}
                 </select>
+                </div>
                 <div>
-                    <button className='create' type='submit'>CREATE</button>
+                    <button className='create' type='submit'>Create</button>
                   
                 </div>
             </form>
@@ -266,7 +270,7 @@ function  handleDelete(el){
                 <ul className='input_temperament'key={el}>
                   <li>
                     <p>{el}</p>
-                    <button className='x' onClick={() => handleDelete(el)}>X</button>
+                    <button className='x' onClick={() => handleDelete(el)}>Delete</button>
                   </li>
                 </ul>    
                     )}

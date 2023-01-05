@@ -126,7 +126,7 @@ if(!allDogs.length) {
                         temperament={el.temperament ? el.temperament : el.temperaments?.map((ele, index) => el.temperaments.length -1 === index? ele.name : ele.name + (', '))}
                         weight={el.weight ? el.weight : el.weightMin + (' - ') + el.weightMax}
                         key={el.id}
-                    />
+                                            />
                     
                     );
                   })}

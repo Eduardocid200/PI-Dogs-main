@@ -1,10 +1,12 @@
 .fondo_3{
-    background-color: black;
-    color: white;
-    
+    background-image: url('https://images.ecestaticos.com/MUsrmUgYGUwR5M6ZyyHCDmeFRUk=/0x0:2121x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fd9e%2F66d%2F793%2Fd9e66d793adbc994841e60850a17e61c.jpg')!important;
+     color: white;
+    width: auto;
+    height: 880px;
 }
 
 .image_detail {
+   padding-top: 50px;
     width: 400px;
     height:300px;
 }

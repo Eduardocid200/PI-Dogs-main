@@ -6,10 +6,16 @@ import './landingPage.css';
 export default function LandingPage(){
     return (
         <div className='landing_page'>
-
                 
-                <h1 className='title_landing'>¡HELLO HUMAN!</h1>
-                <h4 className='subtitle_landing'>Search breeds of dogs or create one</h4>
+                <div className="content">
+
+                <p>Hello</p>
+                <ul>
+                    <li>Humans</li>
+                    <li>Dogs</li>
+                </ul>
+                </div>
+           <h4 className='subtitle_landing'>Search breeds of dogs or create one</h4>
 
                 <Link to = '/home'>
                     <button className='button_landing'>Welcome</button>

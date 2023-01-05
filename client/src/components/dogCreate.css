@@ -6,14 +6,67 @@
     height: 600px;
     width: 110%;
     color:aliceblue;
-    padding-top: 310px;
+    padding-top: 250px;
     padding-right: 80px;
     
 }
+.tittle{
+    background-color: transparent;
+    text-decoration: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: -300px;
+    margin-left: 383px;
+    margin-top: -200px;
+    width: 800px;
+    height: 50px;
 
+}
+.button{
+    display: flex;
+    color:red;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin-left: 57px;
+    margin-top: -67px;
+    font-weight: 1000;
+    font-size: x-large;
+
+}
+.button:hover{
+    opacity: 0.9;
+}
+.create{
+    display: flex;
+    color:red;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 150px;
+    height: 48px;
+    margin-left: 250px;
+    margin-top: -615px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: x-large;
+
+}
+.temperament_finder{
+    width: 30px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+.create:hover{
+    opacity: 0.9;
+}
 .container{
-    padding-top: 1px;
-    margin-left: -3rem;
+    padding-top: 25px;
+    margin-left: -2rem;
+    margin-top: 50PX;
     border-radius: 10px;
 }
 
@@ -25,6 +78,7 @@
 
 .input_temperament{
     list-style: none;
+    padding-left: 10px;
     
 }
 
@@ -38,4 +92,18 @@
     color: rgb(248, 248, 248);
     background-color: rgb(255, 255, 255);
     font-weight: bold;
+}
+.input{
+    display: flex;
+    width: 250px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 150px;
+    border-radius: 10px;
+    
+
+}
+h1{
+    padding-top: 0px;
+    margin-left: 800px;
 }
