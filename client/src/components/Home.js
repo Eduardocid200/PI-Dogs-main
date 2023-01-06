@@ -25,7 +25,7 @@ export default function Home(){  //todo lo de abajo sería como hacer un mapStat
     // pag 1 -----------0--------------8
     // pag 2 -----------9--------------17
 
-    const pagination = (pageNumber, currentPage) => { //esto va a ser en renderizado
+    const pagination = (pageNumber) => { //esto va a ser en renderizado
       setCurrentPage(pageNumber)    // setear la pag en ese numero de pagina
     }
 
@@ -82,11 +82,11 @@ if(!allDogs.length) {
          <Link className='create_button' to= '/dog'>Create Dog</Link>
          <button className='reload_dogs' onClick={e=> {handleClick(e)}}>Reload Dogs</button>
          <div>
-             <select onClick={e=> {handleSort(e)}}>
+             <select className='selectortemperament' onClick={e=> {handleSort(e)}}>
                  <option value='Asc'>A-Z</option>
                  <option value='Desc'>Z-A</option>
              </select>
-             <select onChange={(e) => handleFilterTemperament(e)}>
+             <select className='selectortemperament' onChange={(e) => handleFilterTemperament(e)}>
                  <option>Temperaments</option>
                  <option value='All'>All</option>
 
@@ -97,12 +97,12 @@ if(!allDogs.length) {
                  ))}
              </select>
 
-             <select onChange={(e) => handleWeight(e)}>
+             <select className='selectortemperament' onChange={(e) => handleWeight(e)}>
                  <option>Weight</option>
                  <option value="Heavy">Heavy</option>
                  <option value="Light">Light</option>
              </select>
-             <select onChange={(e) => handleFilterCreated(e)}>
+             <select className='selectortemperament' onChange={(e) => handleFilterCreated(e)}>
                  <option>Dogs</option>
                  <option value='All'>All</option>
                  <option value='Created'>Created</option>
@@ -115,6 +115,7 @@ if(!allDogs.length) {
             dogsPerPage={dogsPerPage}
             allDogs={allDogs.length}
             pagination={pagination}
+            currentPage={currentPage}
             />
          <ul className='card_grid'>
             {currentDogs?.map((el) => {

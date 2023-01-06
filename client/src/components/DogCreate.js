@@ -148,15 +148,14 @@ function  handleDelete(el){
        
         <div className='fondo_2'>
            <h1 className='tittle'>Use your imagination</h1>
-           {/* <input type="button" value="Back" onClick="history.back(-1);"/>
-           <input type="button" value="Volver Atras" onclick="history.back(-1)" />
-            <input type="button" value="Forward" onClick="forward(+1);"></input>  */}
            <Link as={Link} to= '/home'><button className='button'> Home </button></Link>
+           <nav className='div-form'>
             <div className='container'>
       
            
-            <form onSubmit={(e) => handleSubmit(e)}>
+            <form  onSubmit={(e) => handleSubmit(e)}>
                 <div>
+                
                 <input className='input'
                     placeholder='Dog Name'
                     type= 'text'
@@ -168,6 +167,7 @@ function  handleDelete(el){
                         <p className='error'>{errors.name}</p>
                     )}
                 </div>
+
                 <div>
                     <input className='input'
                     placeholder='Image'
@@ -263,12 +263,12 @@ function  handleDelete(el){
                     ))}
                 </select>
                 </div>
+
                 <div>
                     <button className='create' type='submit'>Create</button>
                   
                 </div>
-            </form>
-            {input.temperament.map(el => 
+                {input.temperament.map(el => 
                 <ul className='input_temperament'key={el}>
                   <li>
                     <p>{el}</p>
@@ -276,7 +276,12 @@ function  handleDelete(el){
                   </li>
                 </ul>    
                     )}
+            </form>
+            
+            
         </div>
+       
+        </nav>
         </div>
         
     )

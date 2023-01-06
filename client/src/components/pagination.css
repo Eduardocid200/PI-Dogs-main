@@ -7,17 +7,10 @@
     margin-bottom: 2rem;
     
 }
-.pagination_container:active{
-    color:blueviolet
-}
-.pagenumber:active{
-    color: white;
-}
-.pagenumber:visited{
-    color:green;
-}
+
 
 .pagination{
+    margin-left: -10px;
     background-color: transparent;
     outline: none;
     border: 15px;
@@ -31,12 +24,25 @@
     margin-bottom: 2rem; 
 
 }
-.pagination:active{
-    color: white;
-    font-size: x-large;
+.pagination-active{
+    background-color: transparent;
+    outline: none;
+    border: 15px;
+    font-weight: bold;
+    color: rgb(255, 200, 0);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 2rem; 
 }
 
 
- .pagination:visited{
-    color: rgb(7, 202, 7); 
+ .pagination:hover{
+    color: rgb(49, 49, 49); 
 } 
+.paginationactual{
+    background-color: black;
+    color: azure;
+}

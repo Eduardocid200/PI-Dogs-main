@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { getDogName } from '../actions';
-
+import './searchbar.css'
 
 export default function SearchBar(){
     const dispatch = useDispatch()
@@ -30,7 +30,7 @@ function handleSubmit(e){
     return (
         <form onSubmit={(e) => handleSubmit(e)}>
         <div>
-            <input
+            <input className='inputs'
             type='text'
             value={name}
             placeholder='Write a breed...'

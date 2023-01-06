@@ -17,6 +17,7 @@
    margin-top: 0px;
     padding-top: 0px;
     color: rgb(150, 150, 151);
+    border-color: rgb(196, 198, 69) ;
 }
 .dognamedetail {
 display: flex;
@@ -42,4 +43,5 @@ margin-left: 420px;
     text-align: center;
     font-weight: 1000;
     font-size: x-large;
+    border-color: rgb(5, 5, 5) ;
 }

@@ -7,8 +7,8 @@
     display:grid;
     grid-template-columns: repeat(auto-fill, 270px);
     gap: 5px;
-
-    margin-top: -40px;
+  margin-left: -20px;
+    margin-top: -46px;
     justify-content: center;
     transition: margin-left 0.3s 0.1s;
     color: rgb(150, 150, 151);
@@ -17,7 +17,7 @@
 .create_button{
     display: flex;
     color:rgb(129, 129, 129);
-       background-color: transparent;
+    background-color: transparent;
     width: 150px;
     height: 50px;
     margin-left: 455px;
@@ -29,12 +29,13 @@
 }
 
 .create_button:hover{
-    opacity: 1;
+    opacity: 0.5;
     border-color: aqua;
   
 }
 
 .reload_dogs{
+  outline:none;
     display: flex;
     color:rgb(129, 129, 129);
     background-color: transparent;
@@ -45,31 +46,32 @@
     font-weight: 1000;
     font-size: x-large;
     padding-left: 30px;
+    border: 0px;
 }
 
 .reload_dogs:hover {
-    opacity: 1;
+    opacity: 0.5;
 }
 .numberpage:active{
-  color:white;
+  color:rgb(165, 165, 165);
 }
   .pagination > li {
     list-style: none;
-    border: 0.3px solid;
+   
   }
   .pagination > li > a,
   .pagination > li > span {
     float: left;
     padding: 8px 20px;
     line-height: 1.5;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(185, 185, 185);
     margin-left: -1px;
   }
 
   .pagination > li.active > a {
-    color: #fff;
-    background-color: #b3ad58;
-    border-color: #c09b45;
+    color: rgb(168, 168, 168);
+    background-color: #a9a9a9;
+    border-color: #979797;
   }
    .pagination > li > a:hover {
     background-color: #218838;
@@ -80,3 +82,9 @@
   .pagination > li:first-child > span {
     margin-left: 0;
   }  
+  .selectortemperament{
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color:rgb(211, 200, 159);
+  }

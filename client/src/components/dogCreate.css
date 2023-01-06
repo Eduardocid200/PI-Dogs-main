@@ -7,7 +7,9 @@
     color:rgb(0, 0, 0);
     padding-top: 220px;
     padding-right: 80px;
+    border: 1px solid black;
     text-decoration: none;
+    
 }
 
 .tittle{
@@ -16,31 +18,34 @@
     text-decoration: solid;
     border-radius: 10px;
    
-    color: rgb(4, 255, 221);
+    color: rgb(196, 198, 69);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: -300px;
-    margin-left: 383px;
+    margin-left: 390px;
     margin-top: -200px;
     width: 800px;
     height: 50px;
     font-size: 50px;
+    padding-top: 20px;
 
 }
 .button{
     outline: none;
     text-decoration: none;
-    display: flex;
+    
     color:rgb(129, 129, 129);
     background-color: transparent;
+    border-color: rgb(196, 198, 69) ;
     border-radius: 10px;
     width: 150px;
     height: 50px;
-    margin-left: 57px;
-    margin-top: -67px;
+    margin-left: -947px;
+    margin-top: -50px;
     font-weight: 1000;
     font-size: x-large;
-    padding-left: 30px;
+    padding-left: 0px;
+    padding-top: -4px;
     
     
 
@@ -52,12 +57,13 @@
     text-decoration: none;
     display: flex;
     color:rgb(129, 129, 129);
+    border-color: rgb(196, 198, 69) ;
     background-color: transparent;
     border-radius: 10px;
     width: 150px;
     height: 48px;
     margin-left: 250px;
-    margin-top: -615px;
+    margin-top: -596px;
     text-align: center;
     font-weight: 1000;
     font-size: x-large;
@@ -76,7 +82,7 @@
 .container{
     padding-top: 25px;
     margin-left: -2rem;
-    margin-top: 50PX;
+    margin-top: 30px;
     border-radius: 10px;
 }
 
@@ -90,11 +96,13 @@
     list-style: none;
     padding-left: 10px;
     font-size: x-large;
-    color:rgb(0, 98, 255);
+    border-radius: 10px;
+    color:rgb(21, 21, 21);
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
+
 
 
 .x {
