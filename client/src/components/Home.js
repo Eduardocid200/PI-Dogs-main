@@ -8,7 +8,8 @@ import Pagination from './Pagination';
 import Loader from './Loader';
 import SearchBar from './SearchBar';
 import './home.css'
-
+import Buttons from './buttons'
+import './buttons.css'
 
 export default function Home(){  //todo lo de abajo sería como hacer un mapStateToProps
     const dispatch = useDispatch() 
@@ -18,10 +19,10 @@ export default function Home(){  //todo lo de abajo sería como hacer un mapStat
     const[currentPage, setCurrentPage] = useState(1) //use State xq es un estado local. Es 1 xq siempre voy a arrancar en la 1er pag
     const[dogsPerPage, /*setDogsPerPage*/] = useState(8)
     const [/*order*/, setOrder] = useState('')
-
+    const [pagesNumber]=useState(22)
     const indexOfLastDog = currentPage * dogsPerPage // 1 * 8 = 8   mas que un index se refiere a cantidad
     const indexOfFirstDog = indexOfLastDog - dogsPerPage // 8 - 8 = 0
-    const currentDogs = allDogs.slice(indexOfFirstDog, indexOfLastDog)
+    const currentDogs = allDogs.slice(indexOfFirstDog, indexOfLastDog) // divide un array y tomar una porcion dependiendo lo que estoy pasando por parametro el primero y el ultimo perro
     // pag 1 -----------0--------------8
     // pag 2 -----------9--------------17
 
@@ -110,18 +111,20 @@ if(!allDogs.length) {
              </select>
 
             <SearchBar/> 
-            
+            <div>
+                <Buttons pageNumber={pagesNumber} currentPage={currentPage} changePage={pagination} />
+            </div>
             <Pagination
             dogsPerPage={dogsPerPage}
             allDogs={allDogs.length}
             pagination={pagination}
             currentPage={currentPage}
             />
+               
          <ul className='card_grid'>
             {currentDogs?.map((el) => {
                 return (
-                
-                     <Card
+                <Card
                         id={el.id}
                         name={el.name}
                         image={el.image}
@@ -141,4 +144,3 @@ if(!allDogs.length) {
      </div>
  )
 }
-
