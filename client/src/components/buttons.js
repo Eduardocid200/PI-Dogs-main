@@ -27,27 +27,13 @@ export default function Buttons({currentPage, changePage, pageNumber}) {
           </button>)
         }
   
-        {/* {
-          currentPage > 1 &&
-          
-          (<button onClick={() => handleClick(prevPage)}>
-            {prevPage}
-          </button>)
-        } */}
+        
   
         <button className='botonDespl'>
           {currentPage}
         </button>
   
-        {/* { 
-       
-          nextPage <= pageNumber &&
-  
-          <button onClick={() => handleClick(nextPage)}>
-            {nextPage}
-          </button>
-        }
-   */}
+        
         {
           currentPage < pageNumber &&
   
