@@ -59,7 +59,7 @@ router.get('/:id', async (req, res) => {
     const { id } = req.params;
     const dogsTotal = await getAllDogs()
     if (id) {
-        let dogId = await dogsTotal.filter(el => el.id == id) //con === no funcionaba
+        let dogId = await dogsTotal.filter(el => el.id == id) //traer el personaje con ese id 
         dogId.length?
         res.status(200).json(dogId):
         res.status(404).send('That id was not found 😕')

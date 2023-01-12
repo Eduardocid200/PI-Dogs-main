@@ -8,7 +8,7 @@
     grid-template-columns: repeat(auto-fill, 270px);
     gap: 5px;
   margin-left: -20px;
-    margin-top: -46px;
+    margin-top: -50px;
     justify-content: center;
     transition: margin-left 0.3s 0.1s;
     color: rgb(150, 150, 151);

@@ -5,6 +5,7 @@
     align-items: center;
     padding: 8px 16px;
     margin-bottom: 2rem;
+    color:transparent;
     
 }
 
@@ -14,14 +15,12 @@
     background-color: transparent;
     outline: none;
     border: 15px;
-    font-weight: bold;
-    color: rgb(188, 161, 61);
-    font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 8px 16px;
     margin-bottom: 2rem; 
+    color:transparent
 
 }
 .pagination-active{
@@ -29,7 +28,7 @@
     outline: none;
     border: 15px;
     font-weight: bold;
-    color: rgb(255, 200, 0);
+    color: transparent;
     font-size: 22px;
     display: flex;
     justify-content: center;

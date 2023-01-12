@@ -1,0 +1,38 @@
+.colores{
+   
+
+    color: #002d40 #CCE1F4 #4CB3A0 #25B386 #9CE451;
+    color: #0a210f #14591d #99aa38 #eaebad #acd2ed;
+    }
+    
+    .botonDespl {
+      -webkit-border-radius: 11px;
+      -moz-border-radius: 11px;
+      border-radius: 11px;
+      color: #000000;
+      font-family: Trebuchet MS;
+      font-size: 20px;
+    text-align: center;
+
+      
+      margin-top: 20px;
+      margin-left: 0PX;
+      padding-left: 45px;
+      
+      background-color: #e3e0e0;
+      border: double #0A210F 0;
+      text-decoration: none;
+      display: inline-flex;
+      width: 100px;
+      
+      letter-spacing: 0.2cm;
+    }
+    
+    .botonDespl:hover {
+      background: #ffea04;
+      border: solid #efef84 2px;
+      -webkit-border-radius: 11px;
+      -moz-border-radius: 11px;
+      border-radius: 11px;
+      text-decoration: none;
+    }

@@ -106,4 +106,3 @@ export function getDetail(id){
         }            
     
   }
- 

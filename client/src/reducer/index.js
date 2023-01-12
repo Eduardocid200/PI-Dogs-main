@@ -1,4 +1,3 @@
-
 const initialState = { 
     dogs : [],
     allDogs: [], //declaro un estado q siempre va a tener todos los perros
