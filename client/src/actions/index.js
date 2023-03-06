@@ -5,7 +5,7 @@ import axios from 'axios';
 
 export function getDogs(){
     return async function(dispatch) {
-        var json = await axios.get('http://localhost:3001/dog', {
+        var json = await axios.get('https://eduardo.onrender.com/dog', {
 
         });
         return dispatch({
@@ -19,7 +19,7 @@ export function getDogs(){
 export function getDogName(name){ //name o payload, da igual
     return async function(dispatch) {
         try {
-            var json = await axios.get('http://localhost:3001/dog?name=' + name);
+            var json = await axios.get('https://eduardo.onrender.com/dog?name=' + name);
             return dispatch ({
                 type: 'GET_DOG_NAME',
                 payload: json.data //json.data es lo q devuelve esa ruta
@@ -33,7 +33,7 @@ export function getDogName(name){ //name o payload, da igual
 
 export function getTemperament(){
     return async function(dispatch) {
-        var json = await axios.get('http://localhost:3001/temperament/');
+        var json = await axios.get('https://eduardo.onrender.com/temperament/');
         return dispatch({
             type: 'GET_TEMPERAMENT',
             payload: json.data
@@ -43,7 +43,7 @@ export function getTemperament(){
 
 export function postDog(payload){
     return async function(dispatch) {
-        const data = await axios.post('http://localhost:3001/dog/', payload);
+        const data = await axios.post('https://eduardo.onrender.com/dog/', payload);
         console.log(data)
         return data;
     }
@@ -85,7 +85,7 @@ export function getDetail(id){
         return async function (dispatch){
             try {
                 if(id){
-                    const detail = await axios.get(`http://localhost:3001/dog/${id}`);
+                    const detail = await axios.get(`https://eduardo.onrender.com/dog/${id}`);
                     dispatch ({
                         type: 'GET_DETAIL',
                         payload: detail.data
@@ -106,3 +106,4 @@ export function getDetail(id){
         }            
     
   }
+ 
