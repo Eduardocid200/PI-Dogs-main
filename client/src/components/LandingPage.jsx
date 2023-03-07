@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './landingPage.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function LandingPage(){
     return (
@@ -22,8 +22,12 @@ export default function LandingPage(){
                 <Link to = '/home'>
                     <button className='button_landing'>Welcome</button>
                 </Link>
-            
-
+                <h2 className='Nombre'>Proyecto individual de Eduardo Cid </h2>
+                <li style={{ display: 'inline-block', margin: '0 0.4em  ', textDecoration:'none'}}>
+                <a href="https://github.com/Eduardocid200">
+                  <i class="bi bi-github">Eduardo Cid</i>
+                </a>
+              </li>
         </div>
     )
 }
