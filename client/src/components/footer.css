@@ -1,0 +1,50 @@
+.footer {
+    background-color: rgb(72, 72, 72);
+    text-align: center;
+}
+
+.info {
+    color: white;
+    font-size: 15px;
+}
+
+.NombreFooter {
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.MailFooter {
+    font-size: 15px;
+    color: white;
+}
+
+.Siguenos {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.list-unstyled {
+    color: white;
+    font-size: 25px;
+}
+
+.bi-github {
+    color: white
+}
+
+.bi-instagram {
+    color: white
+}
+
+.instagram {
+    color: white
+}
+
+.terminos {
+    color: white;
+}
