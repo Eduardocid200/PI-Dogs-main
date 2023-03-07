@@ -10,7 +10,7 @@ import SearchBar from './SearchBar';
 import './home.css'
 import Buttons from './buttons'
 import './buttons.css'
-
+import { Footer } from './Footer';
 export default function Home(){  //todo lo de abajo sería como hacer un mapStateToProps
     const dispatch = useDispatch() 
     const allDogs = useSelector((state) => state.dogs) //me lo trae del reducer
@@ -140,7 +140,7 @@ if(!allDogs.length) {
            
 
          </div>
-
+    <Footer/>
      </div>
  )
 }
