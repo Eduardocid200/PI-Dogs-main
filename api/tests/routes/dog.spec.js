@@ -9,16 +9,16 @@ const dog = {
   name: 'Pug',
 };
 
-describe('Dog routes', () => {
+describe('Videogame routes', () => {
   before(() => conn.authenticate()
   .catch((err) => {
     console.error('Unable to connect to the database:', err);
   }));
   beforeEach(() => Dog.sync({ force: true })
     .then(() => Dog.create(dog)));
-  describe('GET /dog', () => {
+  describe('GET /dogs', () => {
     it('should get 200', () =>
-      agent.get('/dog').expect(404)
+      agent.get('/dogs').expect(200)
     );
   });
 });
