@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.a68aa36b.chunk.css",
-    "main.js": "/static/js/main.8617d9f6.chunk.js",
-    "main.js.map": "/static/js/main.8617d9f6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d51260a8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d51260a8.js.map",
-    "static/js/2.a2b6a5d3.chunk.js": "/static/js/2.a2b6a5d3.chunk.js",
-    "static/js/2.a2b6a5d3.chunk.js.map": "/static/js/2.a2b6a5d3.chunk.js.map",
-    "static/js/3.590b96e9.chunk.js": "/static/js/3.590b96e9.chunk.js",
-    "static/js/3.590b96e9.chunk.js.map": "/static/js/3.590b96e9.chunk.js.map",
+    "main.css": "/static/css/main.6a682d05.chunk.css",
+    "main.js": "/static/js/main.ad1b111f.chunk.js",
+    "main.js.map": "/static/js/main.ad1b111f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ee16cd39.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ee16cd39.js.map",
+    "static/css/2.e82f4977.chunk.css": "/static/css/2.e82f4977.chunk.css",
+    "static/js/2.a32bb64f.chunk.js": "/static/js/2.a32bb64f.chunk.js",
+    "static/js/2.a32bb64f.chunk.js.map": "/static/js/2.a32bb64f.chunk.js.map",
+    "static/js/3.8eee7e62.chunk.js": "/static/js/3.8eee7e62.chunk.js",
+    "static/js/3.8eee7e62.chunk.js.map": "/static/js/3.8eee7e62.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a68aa36b.chunk.css.map": "/static/css/main.a68aa36b.chunk.css.map",
-    "static/js/2.a2b6a5d3.chunk.js.LICENSE.txt": "/static/js/2.a2b6a5d3.chunk.js.LICENSE.txt",
-    "static/media/home.css": "/static/media/fondo_ladrillo.3e2bd384.jpg",
-    "static/media/gif_perro_sinfondo.dfef47d2.gif": "/static/media/gif_perro_sinfondo.dfef47d2.gif",
-    "static/media/landingPage.css": "/static/media/oscuro1.d30b4d7c.webp",
-    "static/media/dogCreate.css": "/static/media/perro_paleta.1475596a.webp"
+    "static/css/2.e82f4977.chunk.css.map": "/static/css/2.e82f4977.chunk.css.map",
+    "static/css/main.6a682d05.chunk.css.map": "/static/css/main.6a682d05.chunk.css.map",
+    "static/js/2.a32bb64f.chunk.js.LICENSE.txt": "/static/js/2.a32bb64f.chunk.js.LICENSE.txt",
+    "static/media/landingPage.css": "/static/media/303944.01855ac4.jpg",
+    "static/media/gif_perro_sinfondo.3fa47343.gif": "/static/media/gif_perro_sinfondo.3fa47343.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.d51260a8.js",
-    "static/js/2.a2b6a5d3.chunk.js",
-    "static/css/main.a68aa36b.chunk.css",
-    "static/js/main.8617d9f6.chunk.js"
+    "static/js/runtime-main.ee16cd39.js",
+    "static/css/2.e82f4977.chunk.css",
+    "static/js/2.a32bb64f.chunk.js",
+    "static/css/main.6a682d05.chunk.css",
+    "static/js/main.ad1b111f.chunk.js"
   ]
 }
