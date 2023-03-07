@@ -1,122 +1,103 @@
-.landing_page {
-    background-image: url('../images/303944.jpg');
-    width: 1335px;
-    height: 900px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-top: 60px;
-    margin: -55px;
-    background-color: rgb(53, 53, 53);
-   
-}
-.content {
-    display: flex;
-    width: 480px;
-    height: 90px;
-    color: rgb(60, 60, 60);
-    font-size: 4rem;
-    line-height: 80px;
 
-    position: absolute;
-    padding-left: 25rem;
-    margin-left: 5rem;
-    margin-top: 12rem;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-   
+.landing_page {
+background-image: url('../images/303944.jpg');
+width: 1635px;
+height: 1200px;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+padding-top: 200px;
+margin: 5px;
+background-color: rgb(53, 53, 53);
+}
+
+.content {
+display: flex;
+width: 480px;
+height: 90px;
+color: rgb(60, 60, 60);
+font-size: 4rem;
+line-height: 80px;
+position: absolute;
+left: 35rem;
+top: 12rem;
+font-family: Arial, Helvetica, sans-serif;
+overflow: hidden;
 }
 
 .tittle1 {
-    list-style: none;
-    padding-left: 0px;
-    animation: cambiar 4s infinite;
-    }
-    ul,p{
-        margin: 0;
-    
-    }
-    
-    @keyframes cambiar {
-        /* 0%{ marging-top: 0px;}
-        20%{ marging-top: 0px;}
-        25%{ marging-top: -40px;}
-        50%{ marging-top: -40px;}
-        55%{ marging-top: -80px;}
-        80%{ marging-top: -80px;}
-        85%{ marging-top: -40px;}
-        95%{ marging-top: -40px;}
-        100%{ marging-top: 0px;} */
-       
-            0%{
-              transform: translateY(0px);
-            }
-            20%{
-                transform: translateY(0px);
-              }
-            25%{
-                transform: translateY(-40px);
-              }
-              50%{
-                transform: translateY(-65px);
-              }
-              55%{
-                transform: translateY(-80px);
-              } 
-              80%{
-                transform: translateY(-80px);
-              }
-              85%{
-                transform: translateY(-65px);
-              }
-              95%{
-                transform: translateY(-40px);
-              }
-             
-            100%{
-              transform: translateY(0px);
-            }
-          }
-    
+list-style: none;
+display: flex;
+margin-left: 0px;
+animation: cambiar 4s infinite;
+}
+ul, p {
+margin: 0;
+}
+
+@keyframes cambiar {
+0% {
+transform: translateY(0px);
+}
+20% {
+transform: translateY(0px);
+}
+25% {
+transform: translateY(-40px);
+}
+50% {
+transform: translateY(-65px);
+}
+55% {
+transform: translateY(-80px);
+}
+80% {
+transform: translateY(-80px);
+}
+85% {
+transform: translateY(-65px);
+}
+95% {
+transform: translateY(-40px);
+}
+100% {
+transform: translateY(0px);
+}
+}
 
 .subtitle_landing {
-    
-    top: 50rem;
-    left: 28rem;
-    padding-left: 360px;
-    
-     width: 40rem;
-     word-spacing: 0.1cm;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(60, 60, 60);
-    margin-top: 400px;
-    text-decoration: none;
-    font-size: xx-large;
-
+position: absolute;
+top: 400px;
+left: 480px;
+width: 40rem;
+word-spacing: 0.1cm;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(60, 60, 60);
+text-decoration: none;
+font-size: xx-large;
 }
 
 .button_landing {
-    background: -o-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
-    background: -moz-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
-    background: -webkit-linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
-    background: linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
-    
-    height: 10%;
-            width: 25%;
-            margin-top: 65px;
-            padding: 0px;
-    color: #aaa;
+background: linear-gradient(rgba(50, 50, 50, .5), rgba(50, 50, 50, .75), rgb(50, 50, 50));
+height: 10%;
+width: 25%;
+padding: 0px;
+color: #aaa;
 font-size: xx-large;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 border-radius: 15px;
-margin-top: 150px;
+margin-top: 350px;
 }
 
 .button_landing:hover {
-   
-    outline-offset: 80px;
-    text-shadow: 5px 5px 5px rgb(255, 0, 0);
-    border: 25px;
+outline-offset: 80px;
+text-shadow: 5px 5px 5px rgb(255, 0, 0);
+border: 25px;
 }
-
+.bi-github {
+  color: rgb(17, 17, 17);
+  font-size: 50px;
+  text-decoration: none;
+  
+}
