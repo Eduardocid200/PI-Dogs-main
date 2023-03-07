@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getDetail } from '../actions';
 import './detail.css';
-
+import { Footer } from './Footer';
 export default function Detail(){
     const dispatch = useDispatch();
     const {id} = useParams();
@@ -26,14 +26,17 @@ export default function Detail(){
                 <div>
                     <h1 className="dognamedetail">{detail[0].name}</h1>
                     <img className='image_detail' src={detail[0].image} alt='not found'/>
-                    <p>Height : {!detail[0].createdInDb? detail[0].height : detail[0].heightMin + ' - ' + detail[0].heightMax}</p>
-                    <p>Weight : {!detail[0].createdInDb? detail[0].weight : detail[0].weightMin + ' - ' + detail[0].weightMax}</p>
-                    <p>Life Span : {detail[0].life_span}</p>
-                    <p>Temperaments :  {!detail[0].createdInDb? detail[0].temperament + ' ' : detail[0].temperaments.map((el, index) => detail[0].temperaments.length -1 === index? el.name : el.name + (', '))}</p>
+                    <p className='detalle'>Height : {!detail[0].createdInDb? detail[0].height : detail[0].heightMin + ' - ' + detail[0].heightMax}</p>
+                    <p className='detalle'>Weight : {!detail[0].createdInDb? detail[0].weight : detail[0].weightMin + ' - ' + detail[0].weightMax}</p>
+                    <p className='detalle'>Life Span : {detail[0].life_span}</p>
+                    <p className='detalle'>Temperaments :  {!detail[0].createdInDb? detail[0].temperament + ' ' : detail[0].temperaments.map((el, index) => detail[0].temperaments.length -1 === index? el.name : el.name + (', '))}</p>
                     </div> : <p>Loading...</p>
             }
             
         </div>
-       </div> 
+            <div>
+       </div>
+       <Footer/> 
+       </div>
     )
 }
