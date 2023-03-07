@@ -17,7 +17,7 @@ export default function Home(){  //todo lo de abajo sería como hacer un mapStat
     const allTemperament = useSelector((state) => state.temperament)
 //Paginado: un estado con la pag actual y un estado que me setee la pag actual    
     const[currentPage, setCurrentPage] = useState(1) //use State xq es un estado local. Es 1 xq siempre voy a arrancar en la 1er pag
-    const[dogsPerPage, /*setDogsPerPage*/] = useState(8)
+    const[dogsPerPage, /*setDogsPerPage*/] = useState(10)
     const [/*order*/, setOrder] = useState('')
     const [pagesNumber]=useState(22)
     const indexOfLastDog = currentPage * dogsPerPage // 1 * 8 = 8   mas que un index se refiere a cantidad
@@ -140,7 +140,7 @@ if(!allDogs.length) {
            
 
          </div>
-    <Footer/>
+<Footer/>
      </div>
  )
 }

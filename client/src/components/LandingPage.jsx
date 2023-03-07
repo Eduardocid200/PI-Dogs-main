@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function LandingPage(){
     return (
         <div className='landing_page'>
-                
+
                 <div className="content">
-               
+
                 <p> Hello</p>
                 <nav className='tittle1'>
                 <ul>
@@ -23,8 +23,8 @@ export default function LandingPage(){
                     <button className='button_landing'>Welcome</button>
                 </Link>
                 <h2 className='Nombre'>Proyecto individual de Eduardo Cid </h2>
-                <li style={{ display: 'inline-block', margin: '0 0.4em  ', textDecoration:'none'}}>
-                <a href="https://github.com/Eduardocid200">
+                <li>
+                <a className='githublanding' href="https://github.com/Eduardocid200">
                   <i class="bi bi-github">Eduardo Cid</i>
                 </a>
               </li>

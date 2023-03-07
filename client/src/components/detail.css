@@ -6,7 +6,11 @@
     margin-top: -15px;
     color: rgb(150, 150, 151);
 }
-
+.detalle{
+    color:rgb(37, 37, 37);
+    font-size: large;
+    
+}
 .image_detail {
     border-radius: 10px;
     border: rgb(0, 0, 0) 3px solid ;
@@ -21,10 +25,10 @@
 }
 .dognamedetail {
 display: flex;
-margin-left: 570px;
-padding-right: 80px;
-padding-top: 15px;
-font-size: 50px;
+margin-left: 650px;
+padding-right: 50px;
+padding-top: 195px;
+font-size: 60px;
 color: rgb(86, 86, 86);
 
 padding-left: -600px;
@@ -37,8 +41,8 @@ margin-left: 420px;
     border-radius: 10px;
     width: 150px;
     height: 48px;
-    margin-left: 560px;
-    margin-top: 15px;
+    margin-left: 690px;
+    margin-top: 45px;
     padding-left: 30px;
     text-align: center;
     font-weight: 1000;

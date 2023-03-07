@@ -3,6 +3,7 @@ import {Link, useNavigate} from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { postDog, getTemperament } from '../actions';
 import './dogCreate.css'
+
 function validate(input){
 
     let errors = {};
@@ -282,6 +283,7 @@ function  handleDelete(el){
         </div>
        
         </nav>
+      
         </div>
         
     )

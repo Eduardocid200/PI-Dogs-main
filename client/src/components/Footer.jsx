@@ -7,7 +7,7 @@ export const Footer = () => {
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <p className="NombreFooter">Pi-Dogs de Eduardo Cid</p>
+            <p className="NombreFooter">Proyecto individual de Dogs de Eduardo Cid</p>
             <p className="MailFooter">Email: eduardocid1986@gmail.com</p>
           </div>
           <hr></hr>
@@ -20,8 +20,8 @@ export const Footer = () => {
                 </a>
               </li>
              
-              <li style={{ display: 'inline-block', margin: '0 0.4em  ', color: 'white', textDecoration:'none'}}>
-                <a href="https://github.com/Eduardocid200">
+              <li>
+                <a className='github' href="https://github.com/Eduardocid200">
                   <i class="bi bi-github">Eduardo Cid</i>
                 </a>
               </li>

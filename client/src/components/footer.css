@@ -1,6 +1,7 @@
 .footer {
     background-color: rgb(72, 72, 72);
     text-align: center;
+    padding-left: 700px;
 }
 
 .info {
@@ -9,15 +10,18 @@
 }
 
 .NombreFooter {
+    width: 700px;
     font-size: 30px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: white;
-    text-align: center;
+    display: flex;
+    
+    margin-left: -160px;
 }
 
 .MailFooter {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
 }
 
@@ -30,12 +34,9 @@
 
 .list-unstyled {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.bi-github {
-    color: white
-}
 
 .bi-instagram {
     color: white
@@ -44,7 +45,10 @@
 .instagram {
     color: white
 }
-
+.github{
+    color:white;
+    font-size: 20px;
+}
 .terminos {
     color: white;
 }

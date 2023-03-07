@@ -1,3 +1,4 @@
+
 const initialState = { 
     dogs : [],
     allDogs: [], //declaro un estado q siempre va a tener todos los perros
@@ -35,7 +36,7 @@ function rootReducer(state= initialState, action){
 
 
         case 'FILTER_BY_TEMPERAMENT':
-            const allBreeds = state.allDogs //aca tb para el filtro desde todos
+            const allBreeds = state.dogs //aca tb para el filtro desde todos
             const temperamentFiltered = action.payload === 'All'? 
             state.allDogs : allBreeds.filter(el => {
                return el.temperament? el.temperament.includes(action.payload) :
